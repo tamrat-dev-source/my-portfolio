@@ -1,42 +1,358 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #081b3a, #0b1f4d, #08142f);
+  color: white;
+}
+
+.portfolio {
+  min-height: 100vh;
+}
+
+.hero {
+  min-height: 100vh;
+  padding: 30px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  color: #49a3ff;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #49a3ff;
+}
+
+.hero-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 320px;
+}
+
+.intro {
+  color: #49a3ff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 {
+  font-size: 84px;
+  margin-bottom: 20px;
+}
+
+.hero-content h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  line-height: 1.3;
+}
+
+.hero-text {
+  max-width: 700px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #e5ecff;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.hero-button {
+  display: inline-block;
+  background: #49a3ff;
+  color: white;
+  text-decoration: none;
+  padding: 14px 26px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero-button:hover {
+  background: #2d8ae6;
+  transform: translateY(-2px);
+}
+
+.hero-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 280px;
+}
+
+.hero-image {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  border: 4px solid rgba(73, 163, 255, 0.5);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.section {
+  padding: 80px;
+}
+
+.section h2 {
+  font-size: 54px;
+  color: #49a3ff;
+  margin-bottom: 35px;
+}
+
+.section p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #f0f4ff;
+  margin-bottom: 18px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 28px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.project-card h3 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.project-card p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+.project-image-wrapper {
+  margin-top: 20px;
+}
+
+.project-image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  display: block;
+}
+
+.skills-category {
+  margin-bottom: 35px;
+}
+
+.skills-category h3 {
+  font-size: 24px;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.skills-list span {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 14px 20px;
+  border-radius: 999px;
+  font-size: 16px;
+  color: white;
+}
+
+.contact-intro {
+  max-width: 700px;
+  margin-bottom: 25px;
+  color: #d6e4ff;
+  line-height: 1.7;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.contact-card h3 {
+  margin-bottom: 12px;
+  color: #49a3ff;
+  font-size: 20px;
+}
+
+.contact-card a {
+  color: #ffffff;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.contact-card a:hover {
+  color: #49a3ff;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 20px 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  font-size: 14px;
+  margin: 0 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.footer-text {
+  color: #cbd5e1;
+}
+
+.back-to-top {
+  color: #49a3ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-to-top:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 25px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .hero-layout {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .hero-content h1 {
+    font-size: 56px;
+  }
+
+  .hero-content h2 {
+    font-size: 28px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .hero-image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .section {
+    padding: 50px 25px;
+  }
+
+  .section h2 {
+    font-size: 40px;
+  }
+
+  .project-card h3 {
+    font-size: 22px;
+  }
+
+  .footer {
+    margin: 0 25px;
+    padding: 30px 20px 40px;
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.project-image-wrapper a,
+.project-image-grid a {
+  display: block;
 }
 
-.card {
-  padding: 2em;
+.project-image {
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.read-the-docs {
-  color: #888;
+.project-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.35);
 }
