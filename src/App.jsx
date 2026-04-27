@@ -226,47 +226,61 @@ function App() {
         </div>
 
         <div className="project-card">
-          <h3>Bank Loan Portfolio Analytics Dashboard</h3>
-          <p>
-            Built an end-to-end Power BI dashboard to analyze a lending portfolio of approximately 38.6K loan
-            applications, tracking funded amounts, repayments, interest performance, debt-to-income ratios,
-            and loan quality. Designed executive KPI cards, loan quality segmentation, interactive portfolio views,
-            borrower trend analysis, and loan-level detail reporting to support both high-level decision-making
-            and granular transactional review.
-          </p>
-          <p>
-            <strong>Tools:</strong> Power BI, DAX, Data Modeling, Interactive Reporting
-          </p>
-          <p>
-            <strong>Impact:</strong> Enabled clearer visibility into portfolio health, repayment trends, borrower
-            behavior, and risk exposure through dynamic filtering, good-vs-bad loan analysis, and executive-ready
-            dashboard design.
-          </p>
-          <div className="project-image-grid">
-            <a href={bankLoanDashboard1} target="_blank" rel="noreferrer">
-              <img
-                src={bankLoanDashboard1}
-                alt="Bank Loan Dashboard View 1"
-                className="project-image"
-              />
-            </a>
-            <a href={bankLoanDashboard2} target="_blank" rel="noreferrer">
-              <img
-                src={bankLoanDashboard2}
-                alt="Bank Loan Dashboard View 2"
-                className="project-image"
-              />
-            </a>
-            <a href={bankLoanDashboard3} target="_blank" rel="noreferrer">
-              <img
-                src={bankLoanDashboard3}
-                alt="Bank Loan Dashboard View 3"
-                className="project-image"
-              />
-            </a>
-          </div>
-        </div>
+  <h3>Bank Loan Portfolio Analytics Dashboard</h3>
+  <p>
+    Built an end-to-end Power BI dashboard to analyze a lending portfolio of
+    approximately 38.6K loan applications, tracking funded amounts,
+    repayments, interest performance, debt-to-income ratios, and loan
+    quality. Designed executive KPI reporting, borrower trend analysis, and
+    loan-level detail reporting to support both high-level portfolio
+    monitoring and granular transactional review.
+  </p>
+  <p>
+    <strong>Tools:</strong> Power BI, DAX, Data Modeling, Interactive Reporting
+  </p>
+  <p>
+    <strong>Impact:</strong> Enabled clearer visibility into portfolio health,
+    borrower behavior, and risk exposure through dynamic filtering, good-vs-bad
+    loan analysis, and structured dashboard design.
+  </p>
 
+  <div className="project-links">
+    <a
+      href="https://github.com/tamrat-dev-source/my-portfolio/blob/main/src/projects/bank-loan-portfolio-analytics-dashboard/README.md"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-link"
+    >
+      View Full Project
+    </a>
+  </div>
+
+  <div className="project-image-grid">
+    <a href={bankLoanDashboard1} target="_blank" rel="noreferrer">
+      <img
+        src={bankLoanDashboard1}
+        alt="Bank Loan Dashboard View 1"
+        className="project-image"
+      />
+    </a>
+
+    <a href={bankLoanDashboard2} target="_blank" rel="noreferrer">
+      <img
+        src={bankLoanDashboard2}
+        alt="Bank Loan Dashboard View 2"
+        className="project-image"
+      />
+    </a>
+
+    <a href={bankLoanDashboard3} target="_blank" rel="noreferrer">
+      <img
+        src={bankLoanDashboard3}
+        alt="Bank Loan Dashboard View 3"
+        className="project-image"
+      />
+    </a>
+  </div>
+</div>
         <div className="project-card">
           <h3>Portfolio Website</h3>
           <p>
