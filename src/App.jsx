@@ -187,6 +187,11 @@ function App() {
             eliminated reliance on static reporting, and solved a key usability challenge by creating a
             slicer-driven dynamic Top N task analysis experience.
           </p>
+          <div className="project-links">
+  <a href={sdlTaskDashboardPublicLink} target="_blank" rel="noreferrer" className="project-link-btn">
+    Live Power BI Dashboard
+  </a>
+</div>
           <div className="project-image-wrapper">
             <a href={sdlTaskDashboardPublicLink} target="_blank" rel="noreferrer">
               <img
