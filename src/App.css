@@ -121,6 +121,30 @@ body {
   transform: translateY(-2px);
 }
 
+.top-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.top-link-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.2s ease;
+}
+
+.top-link-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  transform: translateY(-1px);
+}
+
 .hero-image-wrapper {
   flex: 1;
   display: flex;
@@ -175,6 +199,31 @@ body {
   margin-bottom: 14px;
 }
 
+.project-links {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.project-link-btn,
+.project-link {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: rgba(73, 163, 255, 0.14);
+  color: #8fc2ff;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid rgba(73, 163, 255, 0.22);
+  transition: all 0.2s ease;
+}
+
+.project-link-btn:hover,
+.project-link:hover {
+  background: rgba(73, 163, 255, 0.24);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
 .project-image-wrapper {
   margin-top: 20px;
 }
@@ -186,12 +235,24 @@ body {
   margin-top: 20px;
 }
 
+.project-image-wrapper a,
+.project-image-grid a {
+  display: block;
+}
+
 .project-image {
   width: 100%;
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   display: block;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.35);
 }
 
 .skills-category {
@@ -321,7 +382,8 @@ body {
     height: 220px;
   }
 
-  .hero-buttons {
+  .hero-buttons,
+  .top-links {
     justify-content: center;
   }
 
@@ -341,18 +403,4 @@ body {
     margin: 0 25px;
     padding: 30px 20px 40px;
   }
-}
-.project-image-wrapper a,
-.project-image-grid a {
-  display: block;
-}
-
-.project-image {
-  cursor: pointer;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.project-image:hover {
-  transform: scale(1.02);
-  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.35);
 }
