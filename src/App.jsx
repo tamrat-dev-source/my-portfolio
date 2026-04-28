@@ -65,14 +65,7 @@ function App() {
     SDLC Live Dashboard
   </a>
 
-  <a
-    href="/resume.pdf"
-    target="_blank"
-    rel="noreferrer"
-    className="top-link-btn"
-  >
-    Resume
-  </a>
+  
 </div>
           </div>
 
