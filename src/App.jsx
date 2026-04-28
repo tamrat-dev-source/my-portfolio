@@ -7,6 +7,7 @@ import bankLoanDashboard2 from './assets/bank-loan-dashboard-2.png'
 import bankLoanDashboard3 from './assets/bank-loan-dashboard-3.png'
 
 const sdlTaskDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiNGM1MmZiZjItOTE1MC00NWQ5LWJlYTAtZTY1Y2I2MzMyNDliIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
+const sdlcDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiOWZlNGNmYjEtYjYzNC00YTE5LWFhNzQtM2Y0Mjk5ZmUwMDRjIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
 function App() {
   return (
     <div className="portfolio" id="top">
@@ -220,8 +221,13 @@ function App() {
             stakeholders a data-driven way to identify critical vs. healthy projects, analyze risk by business unit,
             and proactively manage bottlenecks and resource concerns.
           </p>
+          <div className="project-links">
+  <a href={sdlcDashboardPublicLink} target="_blank" rel="noreferrer" className="project-link-btn">
+    Live Power BI Dashboard
+  </a>
+</div>
           <div className="project-image-wrapper">
-            <a href={sdlcDashboardImage} target="_blank" rel="noreferrer">
+            <a href={sdlcDashboardPublicLink} target="_blank" rel="noreferrer">
               <img
                 src={sdlcDashboardImage}
                 alt="SDLC Project Health Indicator Dashboard"
