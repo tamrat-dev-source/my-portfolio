@@ -37,6 +37,43 @@ function App() {
             <div className="hero-buttons">
               <a href="#projects" className="hero-button">View My Work</a>
             </div>
+            <div className="top-links">
+  <a
+    href="https://github.com/tamrat-dev-source"
+    target="_blank"
+    rel="noreferrer"
+    className="top-link-btn"
+  >
+    GitHub
+  </a>
+
+  <a
+    href={sdlTaskDashboardPublicLink}
+    target="_blank"
+    rel="noreferrer"
+    className="top-link-btn"
+  >
+    SDL Live Dashboard
+  </a>
+
+  <a
+    href={sdlcDashboardPublicLink}
+    target="_blank"
+    rel="noreferrer"
+    className="top-link-btn"
+  >
+    SDLC Live Dashboard
+  </a>
+
+  <a
+    href="/resume.pdf"
+    target="_blank"
+    rel="noreferrer"
+    className="top-link-btn"
+  >
+    Resume
+  </a>
+</div>
           </div>
 
           <div className="hero-image-wrapper">
