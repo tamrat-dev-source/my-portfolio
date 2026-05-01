@@ -5,9 +5,12 @@ import sdlcDashboardImage from './assets/sdlc-dashboard.png'
 import bankLoanDashboard1 from './assets/bank-loan-dashboard-1.png'
 import bankLoanDashboard2 from './assets/bank-loan-dashboard-2.png'
 import bankLoanDashboard3 from './assets/bank-loan-dashboard-3.png'
+import childBookDashboard1 from './assets/child-book-dashboard-1.png'
 
 const sdlTaskDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiNGM1MmZiZjItOTE1MC00NWQ5LWJlYTAtZTY1Y2I2MzMyNDliIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
 const sdlcDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiOWZlNGNmYjEtYjYzNC00YTE5LWFhNzQtM2Y0Mjk5ZmUwMDRjIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
+const childBookDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiYzMxODQ1YmMtOWYzZS00ZDUxLThjMWUtZjZjZGQ4M2QzZTQ0IiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
+
 function App() {
   return (
     <div className="portfolio" id="top">
@@ -37,36 +40,35 @@ function App() {
             <div className="hero-buttons">
               <a href="#projects" className="hero-button">View My Work</a>
             </div>
+
             <div className="top-links">
-  <a
-    href="https://github.com/tamrat-dev-source"
-    target="_blank"
-    rel="noreferrer"
-    className="top-link-btn"
-  >
-    GitHub
-  </a>
+              <a
+                href="https://github.com/tamrat-dev-source"
+                target="_blank"
+                rel="noreferrer"
+                className="top-link-btn"
+              >
+                GitHub
+              </a>
 
-  <a
-    href={sdlTaskDashboardPublicLink}
-    target="_blank"
-    rel="noreferrer"
-    className="top-link-btn"
-  >
-    SDL Live Dashboard
-  </a>
+              <a
+                href={sdlTaskDashboardPublicLink}
+                target="_blank"
+                rel="noreferrer"
+                className="top-link-btn"
+              >
+                SDL Live Dashboard
+              </a>
 
-  <a
-    href={sdlcDashboardPublicLink}
-    target="_blank"
-    rel="noreferrer"
-    className="top-link-btn"
-  >
-    SDLC Live Dashboard
-  </a>
-
-  
-</div>
+              <a
+                href={sdlcDashboardPublicLink}
+                target="_blank"
+                rel="noreferrer"
+                className="top-link-btn"
+              >
+                SDLC Live Dashboard
+              </a>
+            </div>
           </div>
 
           <div className="hero-image-wrapper">
@@ -219,10 +221,10 @@ function App() {
             slicer-driven dynamic Top N task analysis experience.
           </p>
           <div className="project-links">
-  <a href={sdlTaskDashboardPublicLink} target="_blank" rel="noreferrer" className="project-link-btn">
-    Live Power BI Dashboard
-  </a>
-</div>
+            <a href={sdlTaskDashboardPublicLink} target="_blank" rel="noreferrer" className="project-link-btn">
+              Live Power BI Dashboard
+            </a>
+          </div>
           <div className="project-image-wrapper">
             <a href={sdlTaskDashboardPublicLink} target="_blank" rel="noreferrer">
               <img
@@ -252,10 +254,10 @@ function App() {
             and proactively manage bottlenecks and resource concerns.
           </p>
           <div className="project-links">
-  <a href={sdlcDashboardPublicLink} target="_blank" rel="noreferrer" className="project-link-btn">
-    Live Power BI Dashboard
-  </a>
-</div>
+            <a href={sdlcDashboardPublicLink} target="_blank" rel="noreferrer" className="project-link-btn">
+              Live Power BI Dashboard
+            </a>
+          </div>
           <div className="project-image-wrapper">
             <a href={sdlcDashboardPublicLink} target="_blank" rel="noreferrer">
               <img
@@ -268,61 +270,94 @@ function App() {
         </div>
 
         <div className="project-card">
-  <h3>Bank Loan Portfolio Analytics Dashboard</h3>
-  <p>
-    Built an end-to-end Power BI dashboard to analyze a lending portfolio of
-    approximately 38.6K loan applications, tracking funded amounts,
-    repayments, interest performance, debt-to-income ratios, and loan
-    quality. Designed executive KPI reporting, borrower trend analysis, and
-    loan-level detail reporting to support both high-level portfolio
-    monitoring and granular transactional review.
-  </p>
-  <p>
-    <strong>Tools:</strong> Power BI, DAX, Data Modeling, Interactive Reporting
-  </p>
-  <p>
-    <strong>Impact:</strong> Enabled clearer visibility into portfolio health,
-    borrower behavior, and risk exposure through dynamic filtering, good-vs-bad
-    loan analysis, and structured dashboard design.
-  </p>
+          <h3>Bank Loan Portfolio Analytics Dashboard</h3>
+          <p>
+            Built an end-to-end Power BI dashboard to analyze a lending portfolio of
+            approximately 38.6K loan applications, tracking funded amounts,
+            repayments, interest performance, debt-to-income ratios, and loan
+            quality. Designed executive KPI reporting, borrower trend analysis, and
+            loan-level detail reporting to support both high-level portfolio
+            monitoring and granular transactional review.
+          </p>
+          <p>
+            <strong>Tools:</strong> Power BI, DAX, Data Modeling, Interactive Reporting
+          </p>
+          <p>
+            <strong>Impact:</strong> Enabled clearer visibility into portfolio health,
+            borrower behavior, and risk exposure through dynamic filtering, good-vs-bad
+            loan analysis, and structured dashboard design.
+          </p>
 
-  <div className="project-links">
-    <a
-      href="https://github.com/tamrat-dev-source/my-portfolio/blob/main/src/projects/bank-loan-portfolio-analytics-dashboard/README.md"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="project-link"
-    >
-      View Full Project
-    </a>
-  </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/tamrat-dev-source/my-portfolio/blob/main/src/projects/bank-loan-portfolio-analytics-dashboard/README.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Full Project
+            </a>
+          </div>
 
-  <div className="project-image-grid">
-    <a href={bankLoanDashboard1} target="_blank" rel="noreferrer">
-      <img
-        src={bankLoanDashboard1}
-        alt="Bank Loan Dashboard View 1"
-        className="project-image"
-      />
-    </a>
+          <div className="project-image-grid">
+            <a href={bankLoanDashboard1} target="_blank" rel="noreferrer">
+              <img
+                src={bankLoanDashboard1}
+                alt="Bank Loan Dashboard View 1"
+                className="project-image"
+              />
+            </a>
 
-    <a href={bankLoanDashboard2} target="_blank" rel="noreferrer">
-      <img
-        src={bankLoanDashboard2}
-        alt="Bank Loan Dashboard View 2"
-        className="project-image"
-      />
-    </a>
+            <a href={bankLoanDashboard2} target="_blank" rel="noreferrer">
+              <img
+                src={bankLoanDashboard2}
+                alt="Bank Loan Dashboard View 2"
+                className="project-image"
+              />
+            </a>
 
-    <a href={bankLoanDashboard3} target="_blank" rel="noreferrer">
-      <img
-        src={bankLoanDashboard3}
-        alt="Bank Loan Dashboard View 3"
-        className="project-image"
-      />
-    </a>
-  </div>
-</div>
+            <a href={bankLoanDashboard3} target="_blank" rel="noreferrer">
+              <img
+                src={bankLoanDashboard3}
+                alt="Bank Loan Dashboard View 3"
+                className="project-image"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <h3>Book Distribution Impact Dashboard</h3>
+          <p>
+            Built an end-to-end Power BI dashboard to analyze book distribution performance across low-income families,
+            tracking children served, total families, eligible families, eligibility rate, delivered shipments, and
+            total books distributed. Designed interactive KPI monitoring, delivery breakdown analysis, family structure
+            segmentation, and trend reporting to support program visibility and operational insight.
+          </p>
+          <p>
+            <strong>Tools:</strong> Power BI, DAX, Data Modeling, Interactive Reporting
+          </p>
+          <p>
+            <strong>Impact:</strong> Improved visibility into eligibility, shipment outcomes, and distribution reach by
+            transforming program data into a clear dashboard for monitoring service performance and identifying trends
+            across households and delivery activity.
+          </p>
+          <div className="project-links">
+            <a href={childBookDashboardPublicLink} target="_blank" rel="noreferrer" className="project-link-btn">
+              Live Power BI Dashboard
+            </a>
+          </div>
+          <div className="project-image-wrapper">
+            <a href={childBookDashboardPublicLink} target="_blank" rel="noreferrer">
+              <img
+                src={childBookDashboard1}
+                alt="Book Distribution Impact Dashboard"
+                className="project-image"
+              />
+            </a>
+          </div>
+        </div>
+
         <div className="project-card">
           <h3>Portfolio Website</h3>
           <p>
