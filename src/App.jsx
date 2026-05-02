@@ -376,7 +376,19 @@ function App() {
       </section>
 
       <section id="certifications" className="section">
-        <h2>Certifications</h2>
+        <h2>Education & Certifications</h2>
+        <div className="project-card">
+  <h3> Bachelor's in Law LLB — (AAU) University </h3>
+  <p>
+    Earned a Bachelor of Laws (LLB) degree from Addis Ababa University (AAU) building a strong foundation in legal analysis,
+    research, structured writing, critical reasoning, and professional communication.
+  </p>
+  <p>
+    <strong>Value:</strong> Strengthens my ability to approach business and data problems with disciplined analysis,
+    attention to detail, and clear communication — skills that also support reporting, stakeholder collaboration,
+    and decision-making in analytics environments.
+  </p>
+</div>
 
         <div className="project-card">
           <h3>Microsoft Certified: Power BI Data Analyst Associate</h3>
