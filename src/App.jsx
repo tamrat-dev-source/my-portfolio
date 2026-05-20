@@ -6,6 +6,9 @@ import bankLoanDashboard1 from './assets/bank-loan-dashboard-1.png'
 import bankLoanDashboard2 from './assets/bank-loan-dashboard-2.png'
 import bankLoanDashboard3 from './assets/bank-loan-dashboard-3.png'
 import childBookDashboard1 from './assets/child-book-dashboard-1.png'
+import intelCert from './assets/intel-cert.png'
+import pl300Cert from './assets/pl300-cert.png'
+import uipathCert from './assets/uipath-cert.jpg'
 
 const sdlTaskDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiNGM1MmZiZjItOTE1MC00NWQ5LWJlYTAtZTY1Y2I2MzMyNDliIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
 const sdlcDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiOWZlNGNmYjEtYjYzNC00YTE5LWFhNzQtM2Y0Mjk5ZmUwMDRjIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
@@ -21,7 +24,7 @@ function App() {
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#certifications">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -377,18 +380,19 @@ function App() {
 
       <section id="certifications" className="section">
         <h2>Education & Certifications</h2>
+
         <div className="project-card">
-  <h3> Bachelor's in Law LLB — (AAU) University </h3>
-  <p>
-    Earned a Bachelor of Laws (LLB) degree from Addis Ababa University (AAU) building a strong foundation in legal analysis,
-    research, structured writing, critical reasoning, and professional communication.
-  </p>
-  <p>
-    <strong>Value:</strong> Strengthens my ability to approach business and data problems with disciplined analysis,
-    attention to detail, and clear communication — skills that also support reporting, stakeholder collaboration,
-    and decision-making in analytics environments.
-  </p>
-</div>
+          <h3>Bachelor's in Law LLB — (AAU) University</h3>
+          <p>
+            Earned a Bachelor of Laws (LLB) degree from Addis Ababa University (AAU) building a strong foundation in legal analysis,
+            research, structured writing, critical reasoning, and professional communication.
+          </p>
+          <p>
+            <strong>Value:</strong> Strengthens my ability to approach business and data problems with disciplined analysis,
+            attention to detail, and clear communication — skills that also support reporting, stakeholder collaboration,
+            and decision-making in analytics environments.
+          </p>
+        </div>
 
         <div className="project-card">
           <h3>Microsoft Certified: Power BI Data Analyst Associate</h3>
@@ -400,6 +404,15 @@ function App() {
             <strong>Value:</strong> Demonstrates the ability to turn raw data into meaningful business insights
             through interactive reporting, visual storytelling, and scalable analytics solutions.
           </p>
+          <div className="cert-card-image">
+            <a href={pl300Cert} target="_blank" rel="noreferrer">
+              <img
+                src={pl300Cert}
+                alt="Microsoft PL-300 Certificate"
+                className="cert-image"
+              />
+            </a>
+          </div>
         </div>
 
         <div className="project-card">
@@ -412,6 +425,15 @@ function App() {
             <strong>Value:</strong> Strengthened practical skills in delivering business-ready Power BI solutions
             that support reporting consistency, usability, and enterprise adoption.
           </p>
+          <div className="cert-card-image">
+            <a href={intelCert} target="_blank" rel="noreferrer">
+              <img
+                src={intelCert}
+                alt="Intel Power BI Certificate"
+                className="cert-image"
+              />
+            </a>
+          </div>
         </div>
 
         <div className="project-card">
@@ -424,6 +446,15 @@ function App() {
             <strong>Value:</strong> Demonstrates automation thinking and the ability to streamline repetitive
             business tasks through structured, reliable workflow design.
           </p>
+          <div className="cert-card-image">
+            <a href={uipathCert} target="_blank" rel="noreferrer">
+              <img
+                src={uipathCert}
+                alt="UiPath Certificate"
+                className="cert-image"
+              />
+            </a>
+          </div>
         </div>
       </section>
 
