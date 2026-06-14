@@ -148,6 +148,37 @@ function App() {
         <h2>Projects</h2>
 
         <div className="project-card">
+          <h3>Daxios – Gamified DAX Learning App</h3>
+          <p>
+            Built a web-first DAX learning app designed to help Power BI learners practice beginner
+            DAX concepts through lessons, scenario-based questions, XP, streaks, badges, retry behavior,
+            formula review, and mistake detection. Developed the Version 1 Beginner Zone with 8 structured
+            lessons covering DAX fundamentals, SUM, AVERAGE, COUNT, COUNTA, IF logic, measures, calculated
+            columns, KPI cards, and the Beginner DAX Badge challenge.
+          </p>
+          <p>
+            <strong>Tools:</strong> React Native, Expo, TypeScript, JavaScript, GitHub, Playwright, VS Code,
+            UX Design, Product Documentation
+          </p>
+          <p>
+            <strong>Impact:</strong> Created a complete local demo and portfolio-ready learning product with
+            8 beginner lessons, 80% pass requirements, randomized answer choices, retry behavior without
+            revealing correct answers, Formula Helper, Formula Notebook, Mistake Detective, badge completion
+            flow, and a validated regression suite with 140 passing Playwright tests.
+          </p>
+          <div className="project-links">
+            <a
+              href="https://github.com/tamrat-dev-source/Daxios"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View GitHub Project
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
           <h3>Spread the Word Nevada – Volunteer/Event Intake Form Redesign</h3>
           <p>
             Led the redesign of event request intake and validation workflows by replacing fragmented,
