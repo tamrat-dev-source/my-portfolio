@@ -168,12 +168,21 @@ function App() {
           </p>
           <div className="project-links">
             <a
+              href="https://github.com/tamrat-dev-source/my-portfolio/blob/main/src/projects/daxios-gamified-dax-learning-app/README.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Full Project
+            </a>
+
+            <a
               href="https://github.com/tamrat-dev-source/Daxios"
               target="_blank"
               rel="noopener noreferrer"
               className="project-link"
             >
-              View GitHub Project
+              View GitHub App Repo
             </a>
           </div>
         </div>
