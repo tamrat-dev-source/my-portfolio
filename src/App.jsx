@@ -9,6 +9,11 @@ import childBookDashboard1 from './assets/child-book-dashboard-1.png'
 import intelCert from './assets/intel-cert.png'
 import pl300Cert from './assets/pl300-cert.png'
 import uipathCert from './assets/uipath-cert.jpg'
+import daxiosHome from './assets/daxios/daxios-home.png'
+import daxiosBeginnerZone from './assets/daxios/daxios-beginner-zone.png'
+import daxiosFormulaHelper from './assets/daxios/daxios-formula-helper.png'
+import daxiosFormulaNotebook from './assets/daxios/daxios-formula-notebook.png'
+import daxiosMistakeDetective from './assets/daxios/daxios-mistake-detective.png'
 
 const sdlTaskDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiNGM1MmZiZjItOTE1MC00NWQ5LWJlYTAtZTY1Y2I2MzMyNDliIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
 const sdlcDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiOWZlNGNmYjEtYjYzNC00YTE5LWFhNzQtM2Y0Mjk5ZmUwMDRjIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
@@ -166,6 +171,7 @@ function App() {
             revealing correct answers, Formula Helper, Formula Notebook, Mistake Detective, badge completion
             flow, and a validated regression suite with 140 passing Playwright tests.
           </p>
+
           <div className="project-links">
             <a
               href="https://github.com/tamrat-dev-source/my-portfolio/blob/main/src/projects/daxios-gamified-dax-learning-app/README.md"
@@ -183,6 +189,48 @@ function App() {
               className="project-link"
             >
               View GitHub App Repo
+            </a>
+          </div>
+
+          <div className="project-image-grid">
+            <a href={daxiosHome} target="_blank" rel="noreferrer">
+              <img
+                src={daxiosHome}
+                alt="Daxios Home screen"
+                className="project-image"
+              />
+            </a>
+
+            <a href={daxiosBeginnerZone} target="_blank" rel="noreferrer">
+              <img
+                src={daxiosBeginnerZone}
+                alt="Daxios Beginner Zone Roadmap"
+                className="project-image"
+              />
+            </a>
+
+            <a href={daxiosFormulaHelper} target="_blank" rel="noreferrer">
+              <img
+                src={daxiosFormulaHelper}
+                alt="Daxios Formula Helper"
+                className="project-image"
+              />
+            </a>
+
+            <a href={daxiosFormulaNotebook} target="_blank" rel="noreferrer">
+              <img
+                src={daxiosFormulaNotebook}
+                alt="Daxios Formula Notebook"
+                className="project-image"
+              />
+            </a>
+
+            <a href={daxiosMistakeDetective} target="_blank" rel="noreferrer">
+              <img
+                src={daxiosMistakeDetective}
+                alt="Daxios Mistake Detective"
+                className="project-image"
+              />
             </a>
           </div>
         </div>
