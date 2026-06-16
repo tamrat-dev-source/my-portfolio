@@ -50,41 +50,20 @@ function App() {
             </div>
 
             <div className="top-links">
-              <a
-                href="https://github.com/tamrat-dev-source"
-                target="_blank"
-                rel="noreferrer"
-                className="top-link-btn"
-              >
+              <a href="https://github.com/tamrat-dev-source" target="_blank" rel="noreferrer" className="top-link-btn">
                 GitHub
               </a>
-
-              <a
-                href={sdlTaskDashboardPublicLink}
-                target="_blank"
-                rel="noreferrer"
-                className="top-link-btn"
-              >
+              <a href={sdlTaskDashboardPublicLink} target="_blank" rel="noreferrer" className="top-link-btn">
                 SDL Live Dashboard
               </a>
-
-              <a
-                href={sdlcDashboardPublicLink}
-                target="_blank"
-                rel="noreferrer"
-                className="top-link-btn"
-              >
+              <a href={sdlcDashboardPublicLink} target="_blank" rel="noreferrer" className="top-link-btn">
                 SDLC Live Dashboard
               </a>
             </div>
           </div>
 
           <div className="hero-image-wrapper">
-            <img
-              src={profileImage}
-              alt="Tamrat profile"
-              className="hero-image"
-            />
+            <img src={profileImage} alt="Tamrat profile" className="hero-image" />
           </div>
         </div>
       </header>
@@ -155,82 +134,47 @@ function App() {
         <div className="project-card">
           <h3>Daxios – Gamified DAX Learning App</h3>
           <p>
-            Built a web-first DAX learning app designed to help Power BI learners practice beginner
-            DAX concepts through lessons, scenario-based questions, XP, streaks, badges, retry behavior,
-            formula review, and mistake detection. Developed the Version 1 Beginner Zone with 8 structured
-            lessons covering DAX fundamentals, SUM, AVERAGE, COUNT, COUNTA, IF logic, measures, calculated
-            columns, KPI cards, and the Beginner DAX Badge challenge.
+            Built a web first gamified DAX learning platform for Power BI developers and data analysts featuring
+            interactive lessons, scenario based quizzes, DAX formula practice, XP progression, streaks, badges,
+            Formula Helper, Formula Notebook, and DAX debugging challenges. Developed the Version 1 Beginner Zone
+            with 8 structured lessons covering DAX fundamentals, SUM, AVERAGE, COUNT, COUNTA, IF logic, measures,
+            calculated columns, KPI cards, and the Beginner DAX Badge challenge.
           </p>
           <p>
-            <strong>Tools:</strong> React Native, Expo, TypeScript, JavaScript, GitHub, Playwright, VS Code,
-            UX Design, Product Documentation
+            <strong>Tools:</strong> Power BI, DAX, React Native, Expo, TypeScript, JavaScript, GitHub, Playwright,
+            VS Code, Product Design, UX Design, Frontend Testing
           </p>
           <p>
-            <strong>Impact:</strong> Created a complete local demo and portfolio-ready learning product with
-            8 beginner lessons, 80% pass requirements, randomized answer choices, retry behavior without
-            revealing correct answers, Formula Helper, Formula Notebook, Mistake Detective, badge completion
-            flow, and a validated regression suite with 140 passing Playwright tests.
+            <strong>Impact:</strong> Developed a production style learning platform featuring 8 structured beginner
+            lessons, randomized quiz logic, 80 percent progression rules, retry based learning, Formula Helper,
+            Formula Notebook, Mistake Detective, badge progression, responsive web design, and a validated regression
+            suite with 140 passing Playwright tests.
           </p>
 
           <div className="project-links">
-            <a
-              href="https://github.com/tamrat-dev-source/my-portfolio/blob/main/src/projects/daxios-gamified-dax-learning-app/README.md"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
+            <a href="https://github.com/tamrat-dev-source/my-portfolio/blob/main/src/projects/daxios-gamified-dax-learning-app/README.md" target="_blank" rel="noopener noreferrer" className="project-link">
               View Full Project
             </a>
-
-            <a
-              href="https://github.com/tamrat-dev-source/Daxios"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
+            <a href="https://github.com/tamrat-dev-source/Daxios" target="_blank" rel="noopener noreferrer" className="project-link">
               View GitHub App Repo
             </a>
           </div>
 
           <div className="project-image-grid">
             <a href={daxiosHome} target="_blank" rel="noreferrer">
-              <img
-                src={daxiosHome}
-                alt="Daxios Home screen"
-                className="project-image"
-              />
+              <img src={daxiosHome} alt="Daxios Home screen" className="project-image" />
             </a>
-
             <a href={daxiosBeginnerZone} target="_blank" rel="noreferrer">
-              <img
-                src={daxiosBeginnerZone}
-                alt="Daxios Beginner Zone Roadmap"
-                className="project-image"
-              />
+              <img src={daxiosBeginnerZone} alt="Daxios Beginner Zone Roadmap" className="project-image" />
             </a>
-
             <a href={daxiosFormulaHelper} target="_blank" rel="noreferrer">
-              <img
-                src={daxiosFormulaHelper}
-                alt="Daxios Formula Helper"
-                className="project-image"
-              />
+              <img src={daxiosFormulaHelper} alt="Daxios Formula Helper" className="project-image" />
             </a>
-
             <a href={daxiosFormulaNotebook} target="_blank" rel="noreferrer">
-              <img
-                src={daxiosFormulaNotebook}
-                alt="Daxios Formula Notebook"
-                className="project-image"
-              />
+              <img src={daxiosFormulaNotebook} alt="Daxios Formula Notebook" className="project-image" />
             </a>
-
             <a href={daxiosMistakeDetective} target="_blank" rel="noreferrer">
-              <img
-                src={daxiosMistakeDetective}
-                alt="Daxios Mistake Detective"
-                className="project-image"
-              />
+              <img src={daxiosMistakeDetective} alt="Daxios Mistake Detective" className="project-image" />
             </a>
           </div>
         </div>
@@ -318,11 +262,7 @@ function App() {
           </div>
           <div className="project-image-wrapper">
             <a href={sdlTaskDashboardPublicLink} target="_blank" rel="noreferrer">
-              <img
-                src={sdlDashboardImage}
-                alt="SDL Project Health and Task Analysis Dashboard"
-                className="project-image"
-              />
+              <img src={sdlDashboardImage} alt="SDL Project Health and Task Analysis Dashboard" className="project-image" />
             </a>
           </div>
         </div>
@@ -351,11 +291,7 @@ function App() {
           </div>
           <div className="project-image-wrapper">
             <a href={sdlcDashboardPublicLink} target="_blank" rel="noreferrer">
-              <img
-                src={sdlcDashboardImage}
-                alt="SDLC Project Health Indicator Dashboard"
-                className="project-image"
-              />
+              <img src={sdlcDashboardImage} alt="SDLC Project Health Indicator Dashboard" className="project-image" />
             </a>
           </div>
         </div>
@@ -380,39 +316,20 @@ function App() {
           </p>
 
           <div className="project-links">
-            <a
-              href="https://github.com/tamrat-dev-source/my-portfolio/blob/main/src/projects/bank-loan-portfolio-analytics-dashboard/README.md"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
+            <a href="https://github.com/tamrat-dev-source/my-portfolio/blob/main/src/projects/bank-loan-portfolio-analytics-dashboard/README.md" target="_blank" rel="noopener noreferrer" className="project-link">
               View Full Project
             </a>
           </div>
 
           <div className="project-image-grid">
             <a href={bankLoanDashboard1} target="_blank" rel="noreferrer">
-              <img
-                src={bankLoanDashboard1}
-                alt="Bank Loan Dashboard View 1"
-                className="project-image"
-              />
+              <img src={bankLoanDashboard1} alt="Bank Loan Dashboard View 1" className="project-image" />
             </a>
-
             <a href={bankLoanDashboard2} target="_blank" rel="noreferrer">
-              <img
-                src={bankLoanDashboard2}
-                alt="Bank Loan Dashboard View 2"
-                className="project-image"
-              />
+              <img src={bankLoanDashboard2} alt="Bank Loan Dashboard View 2" className="project-image" />
             </a>
-
             <a href={bankLoanDashboard3} target="_blank" rel="noreferrer">
-              <img
-                src={bankLoanDashboard3}
-                alt="Bank Loan Dashboard View 3"
-                className="project-image"
-              />
+              <img src={bankLoanDashboard3} alt="Bank Loan Dashboard View 3" className="project-image" />
             </a>
           </div>
         </div>
@@ -440,11 +357,7 @@ function App() {
           </div>
           <div className="project-image-wrapper">
             <a href={childBookDashboardPublicLink} target="_blank" rel="noreferrer">
-              <img
-                src={childBookDashboard1}
-                alt="Book Distribution Impact Dashboard"
-                className="project-image"
-              />
+              <img src={childBookDashboard1} alt="Book Distribution Impact Dashboard" className="project-image" />
             </a>
           </div>
         </div>
@@ -494,11 +407,7 @@ function App() {
           </p>
           <div className="cert-card-image">
             <a href={pl300Cert} target="_blank" rel="noreferrer">
-              <img
-                src={pl300Cert}
-                alt="Microsoft PL-300 Certificate"
-                className="cert-image"
-              />
+              <img src={pl300Cert} alt="Microsoft PL-300 Certificate" className="cert-image" />
             </a>
           </div>
         </div>
@@ -515,11 +424,7 @@ function App() {
           </p>
           <div className="cert-card-image">
             <a href={intelCert} target="_blank" rel="noreferrer">
-              <img
-                src={intelCert}
-                alt="Intel Power BI Certificate"
-                className="cert-image"
-              />
+              <img src={intelCert} alt="Intel Power BI Certificate" className="cert-image" />
             </a>
           </div>
         </div>
@@ -536,11 +441,7 @@ function App() {
           </p>
           <div className="cert-card-image">
             <a href={uipathCert} target="_blank" rel="noreferrer">
-              <img
-                src={uipathCert}
-                alt="UiPath Certificate"
-                className="cert-image"
-              />
+              <img src={uipathCert} alt="UiPath Certificate" className="cert-image" />
             </a>
           </div>
         </div>
@@ -607,11 +508,7 @@ function App() {
 
           <div className="contact-card">
             <h3>GitHub</h3>
-            <a
-              href="https://github.com/tamrat-dev-source"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://github.com/tamrat-dev-source" target="_blank" rel="noreferrer">
               github.com/tamrat-dev-source
             </a>
           </div>
