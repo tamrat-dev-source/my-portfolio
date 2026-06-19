@@ -1,5 +1,6 @@
 import './App.css'
 import profileImage from './assets/profile.jpg'
+import portfolioWallpaper from './assets/Portfolio wallpaper.jpg'
 import sdlDashboardImage from './assets/sdl-dashboard.png'
 import sdlcDashboardImage from './assets/sdlc-dashboard.png'
 import bankLoanDashboard1 from './assets/bank-loan-dashboard-1.png'
@@ -22,7 +23,15 @@ const childBookDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiYzM
 function App() {
   return (
     <div className="portfolio" id="top">
-      <header className="hero">
+      <header
+        className="hero"
+        style={{
+          backgroundImage: `linear-gradient(rgba(4, 16, 44, 0.82), rgba(4, 16, 44, 0.88)), url(${portfolioWallpaper})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
         <nav className="navbar">
           <h2 className="logo">Tamrat Portfolio</h2>
           <ul className="nav-links">
