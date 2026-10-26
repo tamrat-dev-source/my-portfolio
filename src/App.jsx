@@ -15,6 +15,10 @@ import daxiosBeginnerZone from './assets/daxios/daxios-beginner-zone.png'
 import daxiosFormulaHelper from './assets/daxios/daxios-formula-helper.png'
 import daxiosFormulaNotebook from './assets/daxios/daxios-formula-notebook.png'
 import daxiosMistakeDetective from './assets/daxios/daxios-mistake-detective.png'
+import homeLabArchitecture from './assets/homelab/Home_Lab_Network_Architecture_Public_Safe.png'
+import homeLabActiveDirectory from './assets/homelab/01_Active_Directory_organizational_units.png'
+import homeLabDhcpLease from './assets/homelab/03_DHCP_client_address_lease.png'
+import homeLabMappedDrive from './assets/homelab/06_CLIENT01_mapped_drive.png'
 
 const sdlTaskDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiNGM1MmZiZjItOTE1MC00NWQ5LWJlYTAtZTY1Y2I2MzMyNDliIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
 const sdlcDashboardPublicLink = 'https://app.powerbi.com/view?r=eyJrIjoiOWZlNGNmYjEtYjYzNC00YTE5LWFhNzQtM2Y0Mjk5ZmUwMDRjIiwidCI6ImMzOWM0NDIyLWI2MDAtNGI0Zi1iYzg1LWI0N2I3OGYxNjM0NSJ9'
@@ -367,6 +371,71 @@ function App() {
           <div className="project-image-wrapper">
             <a href={childBookDashboardPublicLink} target="_blank" rel="noreferrer">
               <img src={childBookDashboard1} alt="Book Distribution Impact Dashboard" className="project-image" />
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <h3>Windows Server 2022 Active Directory &amp; IT Support Home Lab</h3>
+          <p>
+            Built and validated a virtual enterprise-style IT support environment using Microsoft Hyper-V,
+            Windows Server 2022, and a Windows 10 domain-joined client. Configured Active Directory Domain
+            Services, DNS, DHCP, Group Policy, security groups, and shared network resources to simulate
+            day-to-day help desk and junior systems administration responsibilities.
+          </p>
+          <p>
+            <strong>Tools:</strong> Windows Server 2022, Windows 10, Hyper-V, Active Directory, DNS, DHCP,
+            Group Policy, NTFS and Share Permissions, PowerShell, Command Prompt
+          </p>
+          <p>
+            <strong>Verified Results:</strong> Connected DC01 and CLIENT01 through an internal virtual switch;
+            validated client DHCP and DNS configuration, domain administration, departmental organizational
+            units, security groups, and Group Policy drive mapping. Practiced password resets, disabled-account
+            troubleshooting, and network share access validation.
+          </p>
+
+          <div className="project-links">
+            <a
+              href="https://github.com/tamrat-dev-source/windows-server-2022-it-support-homelab"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Full Project &amp; Technical Case Study
+            </a>
+          </div>
+
+          <div className="project-image-wrapper">
+            <a href={homeLabArchitecture} target="_blank" rel="noreferrer">
+              <img
+                src={homeLabArchitecture}
+                alt="Verified Windows Server 2022 Home Lab network architecture diagram"
+                className="project-image"
+              />
+            </a>
+          </div>
+
+          <div className="project-image-grid">
+            <a href={homeLabActiveDirectory} target="_blank" rel="noreferrer">
+              <img
+                src={homeLabActiveDirectory}
+                alt="Active Directory organizational units for IT, HR, and Finance"
+                className="project-image"
+              />
+            </a>
+            <a href={homeLabDhcpLease} target="_blank" rel="noreferrer">
+              <img
+                src={homeLabDhcpLease}
+                alt="DHCP management showing CLIENT01's address lease"
+                className="project-image"
+              />
+            </a>
+            <a href={homeLabMappedDrive} target="_blank" rel="noreferrer">
+              <img
+                src={homeLabMappedDrive}
+                alt="CLIENT01 displaying the mapped IT Shared Drive"
+                className="project-image"
+              />
             </a>
           </div>
         </div>
