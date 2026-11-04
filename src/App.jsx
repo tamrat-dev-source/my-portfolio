@@ -52,10 +52,11 @@ function App() {
           <div className="hero-content">
             <p className="intro">Hello, my name is</p>
             <h1>Tamrat</h1>
-            <h2>Power BI Developer | Data Analyst</h2>
+            <h2>Power BI Developer | Data Analyst | IT Support Professional</h2>
             <p className="hero-text">
-              I build enterprise dashboards, improve reporting workflows, and create
-              practical data solutions using Power BI, SQL, Excel, React, and modern tools.
+              I develop Power BI dashboards, improve data quality, automate workflows,
+              and troubleshoot Windows systems using SQL, Power Query, Power Automate,
+              Active Directory, and Microsoft technologies.
             </p>
 
             <div className="hero-buttons">
@@ -84,17 +85,17 @@ function App() {
       <section id="about" className="section">
         <h2>About Me</h2>
         <p>
-          I am a Microsoft Certified Power BI Developer and data analyst with experience building
-          enterprise dashboards, improving reporting workflows, and translating complex data into
-          clear business insights. My background includes Power BI, DAX, Power Query, SQL, Excel,
-          semantic modeling, and process improvement across nonprofit, consulting, and Fortune 100
-          environments.
+          I am a Microsoft Certified Power BI Data Analyst Associate with experience in
+          business intelligence, data analytics, workflow automation, and IT support.
+          My work spans enterprise and nonprofit environments, including reporting for
+          more than 1,000 projects and 10,000 tasks, data improvement across 15,200+
+          records, and technical support for approximately 500 to 700 employees.
         </p>
         <p>
-          I enjoy creating practical, results-driven solutions that improve visibility, reduce
-          manual effort, and support better decision-making. In addition to analytics and reporting,
-          I also build modern web-based portfolio projects using React and Vite to present technical
-          work in a clear, professional format.
+          I turn reporting requirements into Power BI dashboards, reliable datasets,
+          and repeatable workflows. I also troubleshoot Windows systems, administer
+          Active Directory accounts, and build documented technical projects using
+          Windows Server, Hyper-V, React, and Vite.
         </p>
       </section>
 
@@ -102,41 +103,59 @@ function App() {
         <h2>Experience</h2>
 
         <div className="project-card">
-          <h3>Power BI Developer / Business Intelligence Professional</h3>
+          <h3>Business Intelligence &amp; Power BI Development</h3>
           <p>
-            Built and supported enterprise dashboards, governed semantic models, and reporting
-            solutions in Fortune 100 and consulting environments. Delivered analytics tools used
-            for executive visibility, KPI tracking, portfolio reviews, and operational decision-making.
+            Developed interactive dashboards, data models, and KPI reports for project
+            and operational analysis. Delivered reporting for more than 1,000 projects
+            and 10,000 tasks, with dynamic filters, task rankings, and project health
+            indicators to support management decisions.
           </p>
           <p>
-            <strong>Focus Areas:</strong> Power BI, DAX, Power Query, Semantic Modeling, KPI Design,
-            Executive Reporting, Performance Optimization
-          </p>
-        </div>
-
-        <div className="project-card">
-          <h3>Reporting Modernization &amp; Workflow Improvement</h3>
-          <p>
-            Improved reporting speed, data quality, and business visibility by modernizing legacy
-            reporting processes, restructuring data flows, and supporting scalable analytics workflows.
-            Helped reduce manual effort, improve consistency, and create more reliable reporting outputs.
-          </p>
-          <p>
-            <strong>Focus Areas:</strong> SQL, ETL Optimization, Workflow Improvement, Data Quality,
-            Reporting Automation, Process Design
+            <strong>Focus Areas:</strong> Power BI, DAX, Power Query, SQL, Semantic Modeling,
+            Data Visualization, KPI Reporting, Dashboard Development
           </p>
         </div>
 
         <div className="project-card">
-          <h3>Cross-Functional Stakeholder Support</h3>
+          <h3>Data Analytics &amp; Workflow Automation</h3>
           <p>
-            Worked with leadership, project teams, and business stakeholders to translate reporting
-            needs into practical analytics solutions. Supported clearer decision-making by turning
-            complex data into accessible dashboards, metrics, and reporting structures.
+            Cleaned and validated more than 15,200 program records, resolving duplicates,
+            missing values, and inconsistent identifiers. Redesigned intake forms and
+            tested automated workflows linking forms and Excel. Reduced manual data
+            reconciliation by an estimated 25% to 35%.
           </p>
           <p>
-            <strong>Focus Areas:</strong> Stakeholder Engagement, Requirements Gathering, Dashboard Design,
-            Business Insights, Data Storytelling
+            <strong>Focus Areas:</strong> Excel, Data Cleaning, Data Quality, Power Automate,
+            Jotform, ETL/ELT, Workflow Design, Process Improvement
+          </p>
+        </div>
+
+        <div className="project-card">
+          <h3>IT Support &amp; Systems Administration</h3>
+          <p>
+            Supported Windows and Microsoft 365 users in environments serving hundreds
+            of employees, handling approximately 40 to 60 incidents and service requests
+            weekly. Troubleshot authentication, software, network, and device issues.
+            Performed Active Directory account administration and documented resolutions.
+          </p>
+          <p>
+            <strong>Focus Areas:</strong> Windows, Active Directory, Microsoft 365,
+            ServiceNow, Zendesk, NinjaOne, Hudu, PowerShell, Incident Management
+          </p>
+        </div>
+
+        <div className="project-card">
+          <h3>Technical Collaboration &amp; Problem Solving</h3>
+          <p>
+            Worked with business stakeholders, technical teams, and end users to define
+            requirements, investigate issues, validate results, and document solutions.
+            Improved the consistency of reporting processes, technical support, and
+            operational workflows through structured testing and clear communication.
+          </p>
+          <p>
+            <strong>Focus Areas:</strong> Requirements Gathering, Troubleshooting,
+            Stakeholder Communication, Data Validation, Technical Documentation,
+            Quality Assurance
           </p>
         </div>
       </section>
@@ -529,43 +548,75 @@ function App() {
         <h2>Skills</h2>
 
         <div className="skills-category">
-          <h3>BI &amp; Reporting</h3>
+          <h3>Business Intelligence &amp; Reporting</h3>
           <div className="skills-list">
-            <span>Power BI</span>
+            <span>Power BI Desktop</span>
+            <span>Power BI Service</span>
             <span>DAX</span>
             <span>Power Query</span>
+            <span>SQL</span>
             <span>Excel</span>
             <span>Semantic Modeling</span>
+            <span>Dimensional Modeling</span>
             <span>Row-Level Security</span>
             <span>KPI Design</span>
-            <span>Executive Reporting</span>
+            <span>Executive Dashboards</span>
           </div>
         </div>
 
         <div className="skills-category">
-          <h3>Data &amp; Automation</h3>
+          <h3>Data Engineering &amp; Automation</h3>
           <div className="skills-list">
-            <span>SQL</span>
+            <span>Microsoft Fabric</span>
             <span>Azure Data Factory</span>
+            <span>SQL Server</span>
+            <span>Snowflake</span>
+            <span>ETL/ELT</span>
             <span>Python</span>
-            <span>ETL Optimization</span>
-            <span>Workflow Improvement</span>
-            <span>Jotform</span>
+            <span>Power Automate</span>
+            <span>Power Apps</span>
             <span>UiPath</span>
-            <span>Process Design</span>
+            <span>Jotform</span>
+            <span>Data Cleaning</span>
+            <span>Workflow Improvement</span>
           </div>
         </div>
 
         <div className="skills-category">
-          <h3>Web &amp; Tools</h3>
+          <h3>IT Support &amp; Systems Administration</h3>
+          <div className="skills-list">
+            <span>Windows 10/11</span>
+            <span>Windows Server 2022</span>
+            <span>Active Directory</span>
+            <span>Group Policy</span>
+            <span>Hyper-V</span>
+            <span>DNS</span>
+            <span>DHCP</span>
+            <span>Microsoft 365</span>
+            <span>PowerShell</span>
+            <span>ServiceNow</span>
+            <span>Zendesk</span>
+            <span>NinjaOne</span>
+            <span>Hudu</span>
+            <span>Remote Troubleshooting</span>
+          </div>
+        </div>
+
+        <div className="skills-category">
+          <h3>Software Development &amp; Technical Tools</h3>
           <div className="skills-list">
             <span>React</span>
+            <span>React Native</span>
             <span>Vite</span>
             <span>JavaScript</span>
+            <span>TypeScript</span>
             <span>HTML</span>
             <span>CSS</span>
+            <span>Git</span>
             <span>GitHub</span>
             <span>VS Code</span>
+            <span>Playwright</span>
+            <span>Technical Documentation</span>
           </div>
         </div>
       </section>
@@ -573,7 +624,7 @@ function App() {
       <section id="contact" className="section">
         <h2>Contact</h2>
         <p className="contact-intro">
-          I’m open to data, reporting, BI, and analytics opportunities. Feel free to connect with me below.
+         I'm open to opportunities in Power BI development, data analytics, IT support, and workflow automation. I bring experience in business intelligence, technical troubleshooting, data management, and process improvement. Connect with me to discuss employment opportunities, technical projects, or professional collaboration.
         </p>
 
         <div className="contact-grid">
@@ -595,7 +646,7 @@ function App() {
 
       <footer className="footer">
         <p className="footer-text">
-          © 2018 Tamrat. Microsoft Certified Power BI Developer | Data Analyst
+         © 2026 Tamrat. Power BI Developer | Data Analyst | IT Support | Workflow Automation
         </p>
         <a href="#top" className="back-to-top">Back to Top ↑</a>
       </footer>
