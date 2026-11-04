@@ -646,7 +646,7 @@ function App() {
 
       <footer className="footer">
         <p className="footer-text">
-         © 2026 Tamrat. Power BI Developer | Data Analyst | IT Support | Workflow Automation
+         © 2018 Tamrat. Power BI Developer | Data Analyst | IT Support | Workflow Automation
         </p>
         <a href="#top" className="back-to-top">Back to Top ↑</a>
       </footer>
